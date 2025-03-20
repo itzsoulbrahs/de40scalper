@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, black, rgba(25, 0, 0, 0.1), black);
+            color: #000;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8); /* Adjusted white opacity */
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header-image {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-top: -20px;
+            border: 3px solid #ffffff;
+        }
+        .icons {
+            margin-top: 10px;
+        }
+        .icons img {
+            width: 22px; /* Slightly larger icons */
+            margin: 0 6px;
+            cursor: pointer;
+        }
+        .content {
+            padding: 10px;
+        }
+        .highlight-box {
+            background: rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .small-text {
+            font-size: 14px;
+            opacity: 0.6;
+        }
+        .product {
+            background: rgba(0, 0, 0, 0.2); /* Darker inner background */
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+            text-align: left;
+            border: 1px solid black;
+        }
+        .product img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .product-info {
+            font-size: 14px;
+            margin: 5px 0;
+            text-align: center;
+        }
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .discount {
+            font-size: 14px;
+            color: #555;
+            text-decoration: none;
+        }
+        .buy-button {
+            display: block;
+            width: 35%;
+            padding: 10px;
+            background: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 10px auto;
+            transition: background 0.3s ease;
+        }
+        .buy-button:hover {
+            background: #333;
+        }
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.02) 2%, black 98%);
+            z-index: -1;
+            filter: blur(8px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://cdn.beacons.ai/user_content/dmxliZs5D7bNvuBiwGAuqBYFpSB2/referenced_images/3eedeb91-4443-486b-95dc-4245dc9131e5__link-in-bio__header-block__home__abb7f22a-dcee-479a-ae1c-d7151c052f1f__4e47d44d-8ffc-405b-a7a2-42bf9d4306a1.jpg?t=1739608553196" alt="Header Image" class="header-image">
+        <img src="https://cdn.beacons.ai/user_content/dmxliZs5D7bNvuBiwGAuqBYFpSB2/profile_aimetahedge.png?t=1739558853183" alt="Logo" class="logo">
+        <div class="content">
+            <h2>DE40 Hedge Scalper</h2>
+            <div class="icons">
+                <img src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email">
+                <img src="https://img.icons8.com/ios-filled/50/000000/telegram.png" alt="Telegram">
+            </div>
+            <div class="highlight-box">Get The Best DE40 Scalping EA</div>
+            <p class="small-text">Click "Buy Now" for more info</p>
+            <div class="product">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.PnSJoDi7Z0ftKk5-bAyFYAHaJb&pid=Api&P=0&h=180" alt="Product Image">
+                <div class="product-info">
+                    📣 Sold: 83
+                </div>
+                <div class="price">
+                    $35 <span class="discount"><s>120</s> (71% off)</span>
+                </div>
+                <a href="https://www.paypal.com/biz/fund?id=ZKNMP4V5XYYRY" class="buy-button">Buy now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
